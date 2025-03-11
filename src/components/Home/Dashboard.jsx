@@ -60,7 +60,7 @@ export default function Dashboard() {
                       </div>
 
                       <div className="col-12">
-                        <button className="btn dark-butn hover-darkBlue rounded-pill py-4 w-100 mt-3">
+                        <button className="btn dark-butn hover-darkBlue rounded-pill  w-100 mt-3">
                           <span>Request A Consultation</span>
                         </button>
                       </div>
