@@ -6,6 +6,15 @@ import Contact from "./pages/Contact"
 import About from "./pages/About";
 import Product from "./pages/Product";
 import Portfolio from "./pages/Portfolio";
+import './assets/css/all.min.css';
+
+import './assets/css/animate.css';
+import './assets/css/jquery.fancybox.css';
+import './assets/css/lity.css';
+import './assets/css/swiper.min.css';
+import './assets/css/style.css';
+import './assets/css/all.min.css';
+import './assets/css/jquery-ui.min.css';
 
 function App() {
   return (
