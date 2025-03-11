@@ -65,7 +65,7 @@ function PortHeader() {
           <div className={`collapse navbar-collapse ${isNavbarOpen ? "show" : ""}`}>
             <ul className="navbar-nav m-auto align-items-lg-center d-lg-flex">
               <li className="nav-item">
-                <Link className="nav-link active" to="/">
+                <Link className="nav-link " to="/">
                   Home
                 </Link>
               </li>
@@ -90,11 +90,9 @@ function PortHeader() {
                 </ul>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/portfolio">Portfolio</Link>
+                <Link className="nav-link active" to="/portfolio">Portfolio</Link>
               </li>
-              <li className="nav-item">
-                <Link className="nav-link" to="/blog">Blog</Link>
-              </li>
+            
               <li className="nav-item">
                 <Link className="nav-link" to="/contact">Contact Us</Link>
               </li>

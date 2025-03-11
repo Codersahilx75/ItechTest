@@ -101,11 +101,7 @@ export default function Header() {
                   Portfolio
                 </Link>
               </li>
-              <li className="nav-item">
-                <Link className="nav-link" to="/blog" onClick={() => setIsNavOpen(false)}>
-                  Blog
-                </Link>
-              </li>
+             
               <li className="nav-item">
                 <Link className="nav-link" to="/contact" onClick={() => setIsNavOpen(false)}>
                   <img src={priceIcon} alt="Contact Icon" className="icon-15 me-1" />

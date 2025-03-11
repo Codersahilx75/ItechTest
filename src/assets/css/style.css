@@ -3054,7 +3054,7 @@ small.text {
 .navbar.style-5 .nav-item .nav-link {
   position: relative;
   color: #000;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: bold;
   margin: 0 15px;
   text-transform: capitalize;
@@ -7107,7 +7107,9 @@ header.style-16 .screen-img .diamond {
   margin-top: 10px;
   border-radius: 4px;
   background-color: #eef4f8;
+  
 }
+
 .portfolio.style-1 .portfolio-card:hover h5 a {
   color: var(--color-main);
 }
@@ -14362,6 +14364,8 @@ footer.style-5 .items .title {
   margin-bottom: 30px;
   color: #000;
   line-height: 1;
+  font-size: medium;
+
 }
 footer.style-5 .items .socail-icons {
   margin-top: 30px;
@@ -15512,6 +15516,7 @@ footer.style-16 .form-check-input:checked {
   font-weight: bold;
   text-transform: capitalize;
   margin: 10px;
+  font-size: medium;
 }
 .portfolio-page.style-1 .portfolio-projects.style-1 .controls button.mixitup-control-active {
   color: var(--color-blue5);
@@ -19440,6 +19445,7 @@ header.style-4 .content .info .btn {
 
   .navbar.style-5 .nav-item .nav-link {
     padding-left: 0;
+    
   }
 
   

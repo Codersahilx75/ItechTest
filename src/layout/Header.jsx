@@ -21,7 +21,7 @@ export default function Header() {
     if (path === "/") setActiveMenu("home");
     else if (path === "/contact") setActiveMenu("contact");
     else if (path === "/portfolio") setActiveMenu("portfolio");
-    else if (path === "/blog") setActiveMenu("blog");
+   
     else if (path === "/whatwedo") setActiveMenu("whatwedo");
   }, [location]);
 
@@ -116,16 +116,7 @@ export default function Header() {
                   Portfolio
                 </Link>
               </li>
-              <li className="nav-item">
-                <Link
-                  className={`nav-link ${
-                    activeMenu === "blog" ? "active" : ""
-                  }`}
-                  to="/blog"
-                >
-                  Blog
-                </Link>
-              </li>
+              
               <li className="nav-item">
                 <Link
                   className={`nav-link ${
@@ -220,16 +211,7 @@ export default function Header() {
                       Portfolio
                     </Link>
                   </li>
-                  <li className="nav-item">
-                    <Link
-                      className={`nav-link ${
-                        activeMenu === "blog" ? "active" : ""
-                      }`}
-                      to="/blog"
-                    >
-                      Blog
-                    </Link>
-                  </li>
+                 
                   <li className="nav-item">
                     <Link
                       className={`nav-link ${
